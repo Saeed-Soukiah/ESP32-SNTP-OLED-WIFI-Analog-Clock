@@ -26,11 +26,12 @@ An internet-synchronized analog clock built for ESP32 and a 128x64 SH1106 I2C OL
 
 Connect the SH1106 OLED display to the default ESP32 I2C pins as follows:
 
-| **SH1106 Pin** | **ESP32 Pin** | **Description** | 
-| **VCC** | `3V3` or `5V` | Power (check display rating) | 
-| **GND** | `GND` | Ground | 
-| **SDA** | `GPIO 21` | I2C Data Line | 
-| **SCL** | `GPIO 22` | I2C Clock Line | 
+| SH1106 Pin | ESP32 Pin | Description |
+| :--- | :--- | :--- |
+| **VCC** | 3V3 or 5V | Power (check display rating) |
+| **GND** | GND | Ground |
+| **SDA** | GPIO 21 | I2C Data Line |
+| **SCL** | GPIO 22 | I2C Clock Line |
 
 ## Software Dependencies
 
