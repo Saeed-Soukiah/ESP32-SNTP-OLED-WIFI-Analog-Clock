@@ -6,8 +6,8 @@
 #include "esp_sntp.h"
 
 // Configuration
-const char* ssid = "MHD";
-const char* password = "MSG..0991925074";
+const char* ssid = "Your Wifi SSID";
+const char* password = "Your Wifi Password";
 
 const char* ntpServer1 = "pool.ntp.org";
 const char* ntpServer2 = "time.nist.gov";
