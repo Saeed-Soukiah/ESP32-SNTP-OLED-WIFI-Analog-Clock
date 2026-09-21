@@ -11,7 +11,7 @@ const char* password = "Your Wifi Password";
 
 const char* ntpServer1 = "pool.ntp.org";
 const char* ntpServer2 = "time.nist.gov";
-const long gmtOffset_sec = 10800;  // UTC+3 (Damascus)
+const long gmtOffset_sec = 60000;  // 
 const int daylightOffset_sec = 0;   // No DST
 
 // Global Variables
